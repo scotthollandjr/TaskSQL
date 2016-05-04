@@ -1,0 +1,11 @@
+
+<h1>$category.getName() tasks:</h1>
+
+<ul>
+  #foreach($task in $category.getTask())
+  <li>$task.getDescription(), should be completed by $task.getDueDate()</li>
+  #end
+</ul>
+<a href="/categories/$category.getId()/tasks/new">Add a new task</a>
+</br>
+<a href="/categories">All categories</a>
