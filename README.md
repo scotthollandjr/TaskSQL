@@ -12,7 +12,6 @@ Task list project with SQL for Epicodus Java course.
 * in your browser go to "localhost:4567"
 
 ## Link to repository
-
 Install the project files by following the link below and cloning this repository:
 https://github.com/theAppanaut/TaskSQL.git
 
